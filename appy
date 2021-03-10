@@ -1,0 +1,9 @@
+n=int(input("Enter value of n="))
+if (n%3 == 0 and n%5!=0):
+     print("Appy".format(n))
+elif(n%5==0 and n%3!=0):
+        print("Fizz".format(n))
+elif(n%15==0):
+    print("Appyfizz".format(n))
+else:
+    print("fruti")
